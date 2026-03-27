@@ -1,0 +1,22 @@
+body{
+    background: url(https://www.civicnews.com/news/photo/202004/28513_40790_4024.jpeg);
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weather-box{
+    border: 5px solid white;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: azure;
+}
