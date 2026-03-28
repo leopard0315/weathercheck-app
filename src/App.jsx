@@ -60,11 +60,11 @@ function App() {
  
   return (
     <div>
-      {loading?(
+      {loading || !weather ?(
       <div className ="container">
         <ClipLoader
         color="#f88c6b"
-        loading={loading}
+        loading={true}
         size={150}
         aria-label="Loading Spinner"
         data-testid="loader"
